@@ -9,6 +9,15 @@ use Illuminate\Http\Request;
 class PostController extends Controller
 {
     /**
+    * Logout the authenticated user.
+    */
+   public function logout()
+   {
+        \Illuminate\Support\Facades\Auth::logout();
+
+       return redirect('/');
+   }
+    /**
      * Display a listing of the resource.
      */
     public function index()

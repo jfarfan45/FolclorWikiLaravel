@@ -26,7 +26,7 @@
                     
                         <li class="nav-item"><a class="nav-link" href="{{ url('post')}}">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('add')}}">Nuevo Post</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('custom-logout') }}">Cerrar sesion</a></li>
                         <!-- <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Blog</a></li>//-->
                     </ul>
                 </div>

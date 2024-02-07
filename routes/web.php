@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,4 +35,7 @@ Route::group(['middleware' => 'auth'], function () {
     //Route::get('/home', [PostController::class, 'index'])->name('home');  // Redirecciona
     Route::get('/home',[PostController::class,'index'])->name('home');
     Route::get('/add', [PostController::class, 'create'])->name('newPost');
+    Route::get('/logout', [PostController::class, 'logout'])->name('custom-logout');
+    
 });
+ 
