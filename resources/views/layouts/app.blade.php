@@ -23,7 +23,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-transparent shadow-sm">
             <div class="container">
-                <img src="{{ asset('images/folclorwiki-PhotoRoom.png-PhotoRoom.png') }}" class="logo">
+                <img src="{{ asset('images/folclorwiki-PhotoRoom.png-PhotoRoom.png') }}" style = "display:inline-block;   width:15%;">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
